@@ -1,0 +1,19 @@
+.table{
+	padding: 8px;
+	border: 1px solid #ddd;        
+	border-collapse: collapse;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+
+}
+.encabezado {  		
+    padding: 8px;
+    margin-bottom: 1rem;          
+    border-radius: 1px;        
+    background-color: #3DACB6;
+	color: #FFFFFF;
+}
+.filas{
+	border: 1px solid #f4f4f4;
+	padding: 8px;
+}
