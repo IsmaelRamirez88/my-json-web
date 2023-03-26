@@ -29,9 +29,9 @@ function callApiRestExport($_NombreArchivo = ""){
         	foreach ($Objeto["listaobjetos"] as $key) {
         		if($key["color"] == "Green"){
         			$Objeto = [
-						"tipo" => $key["Tipo"],
-						"tamanio" => $key["Tamanio"],
-						"color" => $key["Color"]
+						"tipo" => $key["tipo"],
+						"tamanio" => $key["tamanio"],
+						"color" => $key["color"]
 					];
 					array_push($Respuesta, $Objeto);        			
         		}        		
